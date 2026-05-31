@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.16.0](https://github.com/Gitlawb/openclaude/compare/v0.15.0...v0.16.0) (2026-05-31)
+
+
+### Features
+
+* enable MCP_SKILLS — discover skill:// resources as invocable skills ([#1408](https://github.com/Gitlawb/openclaude/issues/1408)) ([f111eaa](https://github.com/Gitlawb/openclaude/commit/f111eaa1b33a6dc3946f17af0d51cc5048ebc88c))
+* **provider:** add OpenCode Zen/Go subscription support ([#1350](https://github.com/Gitlawb/openclaude/issues/1350)) ([5a22d60](https://github.com/Gitlawb/openclaude/commit/5a22d604f83fc68fcb2e6f41ca3586ab5044df1d))
+* set process.title to 'openclaude' ([#1425](https://github.com/Gitlawb/openclaude/issues/1425)) ([f6d7a58](https://github.com/Gitlawb/openclaude/commit/f6d7a5894b20fa1aaeafd4b6e0102c3632a69895))
+
+
+### Bug Fixes
+
+* **autocompact:** retry circuit breaker after cooldown ([#1375](https://github.com/Gitlawb/openclaude/issues/1375)) ([11d59ec](https://github.com/Gitlawb/openclaude/commit/11d59ecdcb4f583a629c370a1ee9dd5e9129ce03))
+* **bash:** show output for ! shell commands ([#1265](https://github.com/Gitlawb/openclaude/issues/1265)) ([#1395](https://github.com/Gitlawb/openclaude/issues/1395)) ([ac3ae10](https://github.com/Gitlawb/openclaude/commit/ac3ae109363e59df13c981646e8683192b7a6de2))
+* **build:** restore /dream slash command in bundled CLI ([#1399](https://github.com/Gitlawb/openclaude/issues/1399)) ([132539f](https://github.com/Gitlawb/openclaude/commit/132539ff79f6e1eab05f94aafb3f84db644b26fc))
+* **docs:** update Xiaomi MiMo API URL in README. ([#1424](https://github.com/Gitlawb/openclaude/issues/1424)) ([7cc8eda](https://github.com/Gitlawb/openclaude/commit/7cc8edaa3c0d307a90ee530a253411973ed9cdc3))
+* **ink:** correct stringWidth JS fallback for symbol characters ([#1244](https://github.com/Gitlawb/openclaude/issues/1244)) ([83abfa5](https://github.com/Gitlawb/openclaude/commit/83abfa506ab19676722c5dff09ce68f658af32a7))
+* **launcher:** route direct Node launch paths through launcher ([#1363](https://github.com/Gitlawb/openclaude/issues/1363)) ([363583f](https://github.com/Gitlawb/openclaude/commit/363583faf55bf3cf01a712e78f03f633269451ef))
+* **provider:** allow remote Ollama without OPENAI_API_KEY ([#952](https://github.com/Gitlawb/openclaude/issues/952)) ([01ffbb6](https://github.com/Gitlawb/openclaude/commit/01ffbb68b8db8221c2e800067d8a7c6bf17d30d2)), closes [#369](https://github.com/Gitlawb/openclaude/issues/369)
+* **provider:** require API key input when adding OpenGateway ([#1384](https://github.com/Gitlawb/openclaude/issues/1384)) ([7c23fb7](https://github.com/Gitlawb/openclaude/commit/7c23fb7a050f56089e41e3492e58dc2ad3a3748f))
+* **repl:** show permission prompts while draft input is present ([#1393](https://github.com/Gitlawb/openclaude/issues/1393)) ([70b4b07](https://github.com/Gitlawb/openclaude/commit/70b4b07908d98fd938ae338ca0bad60a80f36587)), closes [#651](https://github.com/Gitlawb/openclaude/issues/651)
+* **teammate-progress:** keep cumulative token+tool counts across prompts ([#475](https://github.com/Gitlawb/openclaude/issues/475)) ([#1402](https://github.com/Gitlawb/openclaude/issues/1402)) ([5247fb8](https://github.com/Gitlawb/openclaude/commit/5247fb897742d6134fd8ab97594f2c10dba336f9))
+* **test:** prevent providerProfiles config mock from leaking across files ([#1432](https://github.com/Gitlawb/openclaude/issues/1432)) ([690b3f0](https://github.com/Gitlawb/openclaude/commit/690b3f07a40cec5f8f82a292e81c4c84c6926888))
+* **thinking:** disable thinking for unsupported Ollama models ([#1376](https://github.com/Gitlawb/openclaude/issues/1376)) ([8513178](https://github.com/Gitlawb/openclaude/commit/85131789346f5b5e067189786e43535fbe04c20d))
+
 ## [0.15.0](https://github.com/Gitlawb/openclaude/compare/v0.14.0...v0.15.0) (2026-05-26)
 
 
