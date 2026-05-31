@@ -111972,7 +111972,7 @@ var init_metadata = __esm(() => {
       isClaudeAiAuth: isClaudeAISubscriber(),
       version: "0.15.0",
       versionBase: getVersionBase(),
-      buildTime: "2026-05-31T04:02:04.805Z",
+      buildTime: "2026-05-31T04:25:46.480Z",
       deploymentEnvironment: env2.detectDeploymentEnvironment(),
       ...isEnvTruthy(process.env.GITHUB_ACTIONS) && {
         githubEventName: process.env.GITHUB_EVENT_NAME,
@@ -124399,6 +124399,7 @@ var init_sandbox_runtime = __esm(() => {
     static isSupportedPlatform = () => false;
     static create = noop96;
     static Version = "";
+    static annotateStderrWithSandboxFailures = (_command, stderr) => stderr;
   };
   SandboxRuntimeConfigSchema = { parse: noop96 };
 });
@@ -232482,7 +232483,7 @@ function getAnthropicEnvMetadata() {
 function getBuildAgeMinutes() {
   if (false)
     ;
-  const buildTime = new Date("2026-05-31T04:02:04.805Z").getTime();
+  const buildTime = new Date("2026-05-31T04:25:46.480Z").getTime();
   if (isNaN(buildTime))
     return;
   return Math.floor((Date.now() - buildTime) / 60000);
@@ -287706,4 +287707,4 @@ export {
   AbortError
 };
 
-//# debugId=B6876B8DE4E733B264756E2164756E21
+//# debugId=9E53F54041BAF23164756E2164756E21
